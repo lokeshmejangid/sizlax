@@ -1,11 +1,11 @@
 import React from "react";
 import { Grid } from "@mui/material";
 import "./Header.css";
-import NavOfferBenar from "../../Pages/Nav/NavOfferBenar/NavOfferBenar";
-import NavCategory from "../../Pages/Nav/NavCategory/NavCategory";
+import SaleOffer from "./SaleOffer/SaleOffer";
+import NavCategory from "./MainHeader/MainHeader";
 import { CiSearch } from "react-icons/ci";
 import { FaShoppingBag } from "react-icons/fa";
-import MenuNav from "../../Pages/Nav/MenuNav/MenuNav";
+import MenuNav from "./Nav/Nav";
 
 const Header = () => {
   return (
@@ -15,7 +15,7 @@ const Header = () => {
           Pay Day Sale is Live - Up To 50% Off On Salary Saving Steals
         </Grid>
         <Grid item xs={6}>
-          <NavOfferBenar />
+          <SaleOffer />
         </Grid>
       </Grid>
       <Grid item xs={12} container spacing={0} className="category">

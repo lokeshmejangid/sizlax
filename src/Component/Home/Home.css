@@ -1,0 +1,22 @@
+.slider img, .latestProduct img{ 
+ border-radius: 10px; 
+}
+
+.latestProduct .title, .topBrands .title, .addCont .title, .focusProduct .title{
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 0.4em 0em;
+}
+.addCont img, .slide img {
+    height: 100%;
+    width: 100%;
+}
+.addCont .add, .slider .slide{
+    padding: 0 1em;
+}
+.slider .slide:first-child, .addCont .add:first-child {
+    padding-left: 0em !important;
+}
+.addCont .add:last-child, .slider .slide:last-child{
+    padding-right: 0em !important;
+}

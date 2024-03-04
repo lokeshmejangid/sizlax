@@ -1,12 +1,17 @@
 import React from 'react'
-import './NavCategory.css'
+import './MainHeader.css'
 import { Grid } from '@mui/material'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom';
 
 const NavCategory = () => {
+  const navigate = useNavigate();
+
+  const handleLogo = () => {
+    navigate("/");
+  }
   return (
     <Grid container spacing={0} className='navCategory'>
-        <img src='./assets/img/logo.gif' className="logoImg" alt="logo" />
+        <img src='./assets/img/logo.gif' className="logoImg" alt="logo" onClick={handleLogo}/>
         <NavLink to='/category'>Categories</NavLink>
         <NavLink to='/brands'>Brands</NavLink>
         <NavLink to='/luxe'>Luxe</NavLink>
