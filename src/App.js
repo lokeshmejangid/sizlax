@@ -27,6 +27,10 @@ import Fragrance from "./Pages/NavPages/Fragrance";
 import Lingerie from "./Pages/NavPages/Lingerie";
 
 const App = () => {
+  const handleScroll = () => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }
+  
   return (
     <>
       <BrowserRouter>
@@ -57,7 +61,7 @@ const App = () => {
         </div>
         <Footer />
       </BrowserRouter>
-      <div className="iconContainer">
+      <div className="iconContainer" onClick={handleScroll}>
         <BiUpArrowAlt />
       </div>
     </>
