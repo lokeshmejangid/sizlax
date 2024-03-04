@@ -1,0 +1,15 @@
+.navCategory a {
+    text-decoration: none;
+    color: black;
+}
+
+.navCategory {
+    gap: 1em;
+    padding: 0em 2em;
+    display: flex;
+    align-items: center;
+}
+.logoImg {
+    height: 60px;
+    width: 120px;
+}

@@ -1,0 +1,12 @@
+.navOfferBenar a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 0.3em;
+    color: white;
+}
+.navOfferBenar{
+    gap: 2em;
+    display: flex;
+    justify-content: end;
+}

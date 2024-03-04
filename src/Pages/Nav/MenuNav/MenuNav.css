@@ -1,0 +1,15 @@
+.menuNav {
+  display: flex;
+  justify-content: space-between;
+}
+.menuNav a {
+  text-decoration: none;
+  color: black;
+}
+.menuNav a:hover {
+  color: purple;
+}
+.menuNav a.active {
+  color: purple;
+  border-bottom: 2px solid purple;
+}
