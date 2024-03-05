@@ -25,6 +25,8 @@ import HealthWellness from "./Pages/NavPages/HealthWellness";
 import Men from "./Pages/NavPages/Men";
 import Fragrance from "./Pages/NavPages/Fragrance";
 import Lingerie from "./Pages/NavPages/Lingerie";
+import Slider from "./Component/Home/Slider";
+import "react-multi-carousel/lib/styles.css";
 
 const App = () => {
   const handleScroll = () => {
@@ -33,6 +35,7 @@ const App = () => {
   
   return (
     <>
+    
       <BrowserRouter>
         <Header />
         <div className="h-content">

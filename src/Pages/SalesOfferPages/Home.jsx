@@ -8,13 +8,15 @@ import MainFocusProduct from '../../Component/Home/MainFocusProduct'
 
 const Home = () => {
   return (
-    <Grid container spacing={0}>
+    
+      <>
       <Slider />
       <Advertisement />
       <LatestProduct />
       <TopBrands />
       <MainFocusProduct />
-    </Grid>
+      </>
+    
   )
 }
 

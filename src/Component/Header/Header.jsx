@@ -18,7 +18,7 @@ const Header = () => {
           <SaleOffer />
         </Grid>
       </Grid>
-      <Grid item xs={12} container spacing={0} className="category">
+      <Grid item xs={12} container spacing={0} className="mainHeader">
         <Grid item xs={4}>
           <NavCategory />
         </Grid>
