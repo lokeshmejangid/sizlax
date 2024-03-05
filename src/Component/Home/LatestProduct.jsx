@@ -9,11 +9,7 @@ const LatestProduct = () => {
         <img
           src="./assets/img/latestProduct.avif"
           alt="Latest Product"
-<<<<<<< HEAD
-          height="100%"
-=======
           height="400px"
->>>>>>> origin/dev
           width={"100%"}
         />
       </Grid>
