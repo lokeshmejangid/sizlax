@@ -1,4 +1,4 @@
-.slider img, .latestProduct img{ 
+.slide img, .latestProduct img{ 
  border-radius: 10px; 
 }
 
@@ -7,16 +7,42 @@
     font-size: 2rem;
     padding: 0.4em 0em;
 }
-.addCont img, .slide img {
+.addCont img {
     height: 100%;
     width: 100%;
 }
 .addCont .add, .slider .slide{
     padding: 0 1em;
 }
-.slider .slide:first-child, .addCont .add:first-child {
+.slider .slide:first-child, .addCont .add, .topBrands .slide:first-child {
     padding-left: 0em !important;
 }
 .addCont .add:last-child, .slider .slide:last-child{
     padding-right: 0em !important;
+}
+.topBrands .slide{
+    padding: 0em 1em;
+}
+.topBrands img {
+    height: 300px;
+    width: 100%;
+}
+.topBrands .button {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    background: #F1EAFF;
+    color: purple;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    width: fit-content;
+    cursor: pointer;
+}
+.topBrands .des {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.topBrands .des2 {
+    font-size: 1rem;
+    font-weight: gray;
 }

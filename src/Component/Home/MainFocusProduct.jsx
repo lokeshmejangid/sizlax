@@ -4,10 +4,10 @@ import Slider from './Slider'
 
 const MainFocusProduct = () => {
   return (
-    <Grid container spacing={0} className='focusProduct'>
+    <div container spacing={0} className='focusProduct'>
       <div className="title">Our Main Product</div>
       <Slider />
-    </Grid>
+    </div>
   )
 }
 
