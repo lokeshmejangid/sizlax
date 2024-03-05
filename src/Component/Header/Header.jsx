@@ -19,7 +19,7 @@ const Header = () => {
         </Grid>
       </Grid>
       <Grid item xs={12} container spacing={0} className="mainHeader">
-        <Grid item xs={4}>
+        <Grid item xs={6}>
           <NavCategory />
         </Grid>
           <Grid item xs={4} className="searchCon">
@@ -27,7 +27,7 @@ const Header = () => {
             <CiSearch className="searchIcon" />
           </Grid>
           
-        <Grid item xs={4} className="cartCont">
+        <Grid item xs={2} className="cartCont">
             <span className="cur-pointer">Sign In</span>
             <FaShoppingBag className="cur-pointer" />
           </Grid>
