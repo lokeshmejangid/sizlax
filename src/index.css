@@ -6,10 +6,10 @@
 .h-content{
     min-height: calc(100vh - 280px);
     height: 100%;
-    padding: 1em;
+    padding: 0em 2em;
 }
 .iconContainer {
-    position: absolute;
+    position: fixed;
     right: 1%;
     bottom: 1%;
     background: #4C9BBA;

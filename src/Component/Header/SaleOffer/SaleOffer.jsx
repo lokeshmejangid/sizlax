@@ -1,13 +1,13 @@
 import { Grid } from '@mui/material'
 import React from 'react'
-import './NavOfferBenar.css'
+import './SaleOffer.css'
 import { NavLink } from 'react-router-dom'
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
 import { CiLocationOn } from "react-icons/ci";
 import { MdCardGiftcard } from "react-icons/md";
 import { IoIosHelpCircleOutline } from "react-icons/io";
 
-const NavOfferBenar = () => {
+const SaleOffer = () => {
     return (
         <Grid container spacing={0} className='navOfferBenar'>
             <NavLink to='/getApp' >
@@ -30,4 +30,4 @@ const NavOfferBenar = () => {
     )
 }
 
-export default NavOfferBenar
+export default SaleOffer

@@ -1,9 +1,9 @@
 import React from 'react'
-import './MenuNav.css'
+import './Nav.css'
 import { Grid } from '@mui/material'
 import { NavLink } from 'react-router-dom'
 
-const MenuNav = () => {
+const Nav = () => {
   return (
     <Grid container spacing={0} className='menuNav'>
       <NavLink to='/makeUp'>MakeUp</NavLink>
@@ -21,4 +21,4 @@ const MenuNav = () => {
   )
 }
 
-export default MenuNav
+export default Nav
