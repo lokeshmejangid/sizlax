@@ -14,20 +14,20 @@
 .addCont .add, .slider .slide{
     padding: 0 1em;
 }
-.slider .slide:first-child, .addCont .add, .topBrands .slide:first-child {
+.slider .slide:first-child, .addCont .add, .topBrands .slide:first-child, .focusProduct .slide:first-child {
     padding-left: 0em !important;
 }
 .addCont .add:last-child, .slider .slide:last-child{
     padding-right: 0em !important;
 }
-.topBrands .slide{
+.topBrands .slide, .focusProduct .slide{
     padding: 0em 1em;
 }
-.topBrands img {
+.topBrands img, .focusProduct img {
     height: 300px;
     width: 100%;
 }
-.topBrands .button {
+.topBrands .button, .focusProduct .button {
     display: flex;
     align-items: center;
     gap: 0.5em;
@@ -38,11 +38,11 @@
     width: fit-content;
     cursor: pointer;
 }
-.topBrands .des {
+.topBrands .des, .focusProduct .des {
     font-size: 1.2rem;
     font-weight: bold;
 }
-.topBrands .des2 {
+.topBrands .des2, .focusProduct .des2{
     font-size: 1rem;
     font-weight: gray;
 }
