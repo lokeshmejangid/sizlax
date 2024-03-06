@@ -32,3 +32,10 @@
 .mt-2{
     margin-top: 2em;
 }
+.img-full {
+    height: 100%;
+    width: 100%;
+}
+.img-border-radius {
+    border-radius: 10px;
+}
