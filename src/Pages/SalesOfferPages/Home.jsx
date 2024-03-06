@@ -5,6 +5,8 @@ import LatestProduct from '../../Component/Home/LatestProduct'
 import TopBrands from '../../Component/Home/TopBrands'
 import Advertisement from '../../Component/Home/Advertisement'
 import MainFocusProduct from '../../Component/Home/MainFocusProduct'
+import SpecialDiscount from '../../Component/Home/SpecialDiscount'
+import BestSellingProduct from '../../Component/Home/BestSellingProduct'
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
       <LatestProduct />
       <TopBrands />
       <MainFocusProduct />
+      <SpecialDiscount />
+      <BestSellingProduct />
       </>
     
   )

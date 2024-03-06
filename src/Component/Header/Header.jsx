@@ -12,7 +12,7 @@ const Header = () => {
     <Grid container spacing={0} className="header">
       <Grid item xs={12} container spacing={0} className="offerBenar">
         <Grid item xs={6}>
-          Pay Day Sale is Live - Up To 50% Off On Salary Saving Steals
+          <marquee direction="right">Pay Day Sale is Live - Up To 50% Off On Salary Saving Steals</marquee>
         </Grid>
         <Grid item xs={6}>
           <SaleOffer />
