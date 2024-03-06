@@ -4,10 +4,12 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const SliderVertial = (props) => {
   const { id, tagLine, img, des, des2 } = props.slide;
+  const { style } = props;
+  
   return (
     <Grid container spacing={0} className="slide">
       <Grid item xs={12}>
-        <img src={img} alt={img} />
+        <img src={img} alt={img} height="170px" width="170px"/>
       </Grid>
       {des && (
         <Grid container spacing={0} mt={2}>

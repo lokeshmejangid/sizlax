@@ -1,33 +1,53 @@
-.slide img, .latestProduct img{ 
- border-radius: 10px; 
+.slide img,
+.latestProduct img {
+    border-radius: 10px;
 }
 
-.latestProduct .title, .topBrands .title, .addCont .title, .focusProduct .title{
+.latestProduct .title,
+.topBrands .title,
+.addCont .title,
+.focusProduct .title,
+.best-selling .title {
     font-weight: bold;
     font-size: 2rem;
     padding: 0.4em 0em;
 }
+
 .addCont img {
     height: 100%;
     width: 100%;
 }
-.addCont .add, .slider .slide{
+
+.addCont .add,
+.slider .slide {
     padding: 0 1em;
 }
-.slider .slide:first-child, .addCont .add, .topBrands .slide:first-child, .focusProduct .slide:first-child {
+
+.slider .slide:first-child,
+.addCont .add,
+.topBrands .slide:first-child,
+.focusProduct .slide:first-child {
     padding-left: 0em !important;
 }
-.addCont .add:last-child, .slider .slide:last-child{
+
+.addCont .add:last-child,
+.slider .slide:last-child {
     padding-right: 0em !important;
 }
-.topBrands .slide, .focusProduct .slide{
+
+.topBrands .slide,
+.focusProduct .slide {
     padding: 0em 1em;
 }
-.topBrands img, .focusProduct img {
+
+.topBrands img,
+.focusProduct img {
     height: 300px;
     width: 100%;
 }
-.topBrands .button, .focusProduct .button {
+
+.topBrands .button,
+.focusProduct .button {
     display: flex;
     align-items: center;
     gap: 0.5em;
@@ -38,13 +58,25 @@
     width: fit-content;
     cursor: pointer;
 }
-.topBrands .des, .focusProduct .des {
+
+.topBrands .des,
+.focusProduct .des,
+.best-selling .des {
     font-size: 1.2rem;
     font-weight: bold;
 }
-.topBrands .des2, .focusProduct .des2{
+
+.topBrands .des2,
+.focusProduct .des2,
+.best-selling .des2 {
     font-size: 1rem;
-    font-weight: gray;
+    color: gray;
+}
+
+.best-selling {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(212, 210, 210, 1) 35%, rgba(255, 255, 255, 1) 100%);
+    padding: 2em 0em;
 }
 
 /* special discount */

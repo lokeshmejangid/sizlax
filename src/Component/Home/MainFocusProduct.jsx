@@ -5,6 +5,7 @@ import SliderResponsive from "../../Utils/SliderResponsive";
 import SliderVerticalComponents from "./SliderVerticalComponents";
 
 const MainFocusProduct = () => {
+  
   const sliderData = [
     {
       id: 1,
